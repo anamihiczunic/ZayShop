@@ -67,4 +67,10 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem "jquery-slick-rails"
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.7'
 
+gem 'carrierwave', '~> 2.2', '>= 2.2.2'
+gem 'mini_magick', '~> 4.11'
+gem 'devise', '~> 4.8'
+gem 'activeadmin', '~> 2.9'
+gem "gritter", "1.2.0"
+
 
