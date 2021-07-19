@@ -73,5 +73,6 @@ gem 'devise', '~> 4.8'
 gem 'activeadmin', '~> 2.9'
 gem "gritter", "1.2.0"
 gem 'toastr-rails', '~> 1.0', '>= 1.0.3'
+gem 'stripe', '~> 5.37'
 
 
