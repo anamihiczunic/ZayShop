@@ -1,4 +1,7 @@
 class ProductsController < ApplicationController
+  include CurrentCartConcern
+  before_action :set_cart, only: [:show, :index]
+
   def index
     @products = Product.all.order("created_at desc")
   end
